@@ -1,76 +1,19 @@
-.navbar {
-  position: fixed;
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
-  width: 100%;
-  background-color: #1b1f29;
-  font-size: 30px;
-  z-index: 1;
-  color: white;
 }
-
-.contener {
+.main-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
-  top: 10vh;
-  height: 90vh;
+  top: 8vh;
 }
-.weather {
-  height: 80%;
-  width: 45vw;
-  padding: 20px;
-  background-color: blueviolet;
-}
-.search-contener {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.input {
-  height: 60px;
-  width: 60%;
-  border: none;
-  padding-left: 20px;
-}
-.image-contener {
-  display: flex;
-  justify-content: center;
-}
-.btn {
-  height: 63px;
-  width: 20%;
-  background-color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.city {
-  font-size: 35px;
-  color: white;
-  text-align: center;
-}
-
 .row {
-  margin-top: 20px;
   display: flex;
-  justify-content: space-around;
-  color: white;
+  flex-direction: row;
+  align-items: center;
 }
-.info-title {
-  font-size: 25px;
-  text-align: center;
-}
-
-.info {
-  font-size: 35px;
-  text-align: center;
-}
-.msg {
-  text-align: center;
-  color: white;
+.column {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,16 @@
+.card-container {
+  background-color: white;
+  width: 90%;
+  margin: 30px 0px 15px;
+  border-radius: 6px;
+  padding: 20px 10px;
+}
+.card-icon {
+  flex: 1;
+  font-size: 24px;
+}
+.card-title {
+  flex: 6;
+  font-size: 24px;
+  font-weight: 600;
+}

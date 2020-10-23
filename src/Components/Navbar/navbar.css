@@ -1,0 +1,19 @@
+.navbar-container {
+  position: fixed;
+  height: 8vh;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  display: flex;
+  background-color: white;
+}
+.nav-item {
+  padding: 0px 15px;
+}
+.nav-logo {
+  font-weight: 600;
+  font-size: 16px;
+}

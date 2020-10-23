@@ -1,0 +1,9 @@
+.img-side-container {
+  height: 92vh;
+  background-image: url("../../assets/undraw_deliveries_131a.png");
+  background-size: cover;
+  background-position: center;
+  flex: 3;
+  position: sticky;
+  top: 8vh;
+}
