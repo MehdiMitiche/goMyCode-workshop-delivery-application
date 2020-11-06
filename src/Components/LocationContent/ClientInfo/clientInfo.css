@@ -1,0 +1,20 @@
+.info-input {
+  flex: 1;
+  margin: 10px 6px;
+  padding: 4px;
+}
+.input {
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+  border-bottom-color: #e3e6e9;
+  font-size: 12px;
+  font-weight: 600;
+}
+.input:hover {
+  border-bottom-color: #6c63ff;
+}
+.input:focus {
+  border-bottom-color: #6c63ff;
+  box-shadow: none;
+}

@@ -1,7 +1,7 @@
 .delvery-side-container {
   background-color: #f0f3f7;
   flex: 2;
-  height: 200vh;
+  height: fit-content;
   justify-content: flex-start;
   flex-direction: column;
 }
